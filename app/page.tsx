@@ -4,13 +4,13 @@
 //     )
 // }
 
-import CountDownTimer from "@/components/count-down";
+import WeatherWidget from "@/components/weather-widget";
                                         
 
 export default function Home() {
   return (
     <div>
-      <CountDownTimer />
+      <WeatherWidget />
     </div>
   );
 }
